@@ -1,0 +1,486 @@
+.corps {
+	background-image:url("../img/contact.jpg");
+	background-attachment:fixed;
+	background-size: 100%;
+}
+
+.clear{ 
+     clear: both;
+}
+
+.titrepartie {
+	font-family: Montserrat, sans-serif;
+	font-size: 35px;
+	font-weight: 500;
+	color: white;
+	margin-left: 30px;
+}
+
+.transbox{
+	height: 50px;
+}
+
+.emptybox {
+	height: 80px;
+	margin-top: -85px;
+}
+
+/*-------------------------------------------- QUI SOMMES NOUS --------------------------------------------*/
+
+#container1 {
+	margin:auto;
+	width: 100%;
+	height: 120%;
+	background-color: white;
+	display:table-cell;
+	vertical-align:middle;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.boxQSN {
+	border-right: solid 1px;
+	width: 40%;
+	float:left;
+	padding-left: 40px;
+	padding-right: 40px;
+	height: 80%;
+	text-align: center;
+}
+
+.titleQSN {
+	font-family: Montserrat, sans-serif;
+	font-size: 20px;
+	margin-bottom: 25px;
+}
+
+.textQSN {
+	font-family: Montserrat, sans-serif;
+	font-size: 15px;
+}
+
+.iconQSN {
+	float:right;
+	width: 40%;
+	padding-left: 40px;
+	padding-right: 40px;
+	text-align: center;
+}
+
+.icon1 {
+	float:left;
+	width: 40%;
+}
+
+.icon2 {
+	float:right;
+	width: 40%;
+}
+
+.icon3 {
+	float:left;
+	width: 40%;
+}
+
+.icon4 {
+	float:right;
+	width: 40%;
+}
+
+.texticon {
+	font-family: Montserrat, sans-serif;
+	font-weight: 200;
+	font-size: 15px;
+	margin-top: -5px;
+}
+
+.buttonMore {
+	font-family: Montserrat, sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+	text-align: center;
+	color: white;
+	background-color: #8ABDD9;
+	border-style: solid; 
+	border-color: #8ABDD9;
+	border-width: 2px; 
+	width: 200px;
+	border-radius: 10px;
+	padding: 5px;
+	position: center;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.buttonMore:hover {
+	color: white;
+	font-size: 20px;
+	background-color: #79A2B9;
+	border-color: #79A2B9;
+}
+
+.buttonMore a:hover {
+	text-decoration: none;
+}
+
+.imagecrop {
+	overflow: hidden;
+	height: 350px;
+}
+
+#id {
+	padding-bottom: -90px;
+}
+
+/*-------------------------------------------- MOT DU PRÉSIDENT --------------------------------------------*/
+
+#container2 {
+	margin:auto;
+	width: 100%;
+	height: 100%;
+	display:table-cell;
+	vertical-align:middle;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: white;
+}
+
+.ouverture {
+	background-color: rgba(255,255,255,.8);
+	float: left;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.motpresident {
+	margin-right: 40px;
+	font-family: Montserrat, sans-serif;
+	font-weight: 200;
+	font-size: 15px;
+	float: right;
+	width: 70%;
+}
+
+.infospresident {
+	float: left;
+	width: 20%;
+	margin-left: 30px;
+	text-align: center;
+	margin-right: 20px;
+}
+
+.namepresident {
+	font-family: Montserrat, sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.titlepresident {
+	font-family: Montserrat, sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	margin-top: -15px;
+}
+
+.photopresident {
+	height: 200px;
+}
+
+.signaturepresident {
+	width: 55%;
+	margin-right: 100px;
+	float: right;
+}
+
+/*-------------------------------------------- NOTRE EQUIPE --------------------------------------------*/
+
+#container3 {
+	width: 100%;
+	height: 120%;
+	background-color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	display:table-cell;
+}
+
+.person1 {
+	padding-bottom: 20px;
+	display:table-cell;
+}
+
+.person2 {
+	padding-bottom: 20px;
+	display:table-cell;
+}
+
+.person1 > .photoequipe {
+	width: 15%;
+	float:left;
+	padding-left: 40px;
+	text-align: center;
+}
+
+.person1 > .textequipe {
+	width: 70%;
+	float:right;
+	padding-right: 40px;
+	height: 80%;
+	text-align: left;
+	font-family: Montserrat, sans-serif;
+	font-weight: 200;
+	font-size: 15px;
+}
+
+.person1 > .nomequipe {
+	width: 70%;
+	float:right;
+	padding-right: 40px;
+	height: 80%;
+	text-align: left;
+	font-family: Montserrat, sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+}
+
+.person2 > .photoequipe {
+	width: 15%;
+	float:right;
+	padding-right: 40px;
+	text-align: center;
+}
+
+.person2 > .textequipe {
+	width: 70%;
+	float:left;
+	padding-left: 40px;
+	height: 80%;
+	text-align: right;
+	font-family: Montserrat, sans-serif;
+	font-weight: 200;
+	font-size: 15px;
+}
+
+.person2 > .nomequipe {
+	width: 70%;
+	float:left;
+	padding-left: 40px;
+	height: 80%;
+	text-align: right;
+	font-family: Montserrat, sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+}
+
+.titreequipe {
+	font-family: Montserrat, sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	padding-left: 40px;
+	color: rgb(133,133,133);
+	background-color: rgba(133,133,133,0.1);
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+/*-------------------------------------------- RÉFÉRENCES CLIENTS --------------------------------------------*/
+
+#container4 {
+	width: 100%;
+	height: 120%;
+	background-color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.present {
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 20px;
+	margin-bottom: -40px;
+	font-family: Montserrat, sans-serif;
+	font-weight: 200;
+	font-size: 18px;
+	background-color: rgba(133,133,133,0.1);
+	border-bottom:3px solid #8FC4DF;
+}
+
+#container4 > .icon-wrench, .icon-truck, .icon-random, .icon-hospital, .icon-book {
+	height: 50px !important;
+	width: 50px !important;
+	float: left;
+}
+
+.clients {
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 20px;
+	font-family: Montserrat, sans-serif;
+	font-weight: 200;
+	font-size: 15px;
+}
+
+/*-------------------------------------------- CHIFFRES --------------------------------------------*/
+
+#container5 {
+	width: 100%;
+	height: 120%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: white;
+	display:table-cell;
+}
+
+.chiffrefinancier {
+	float: left;
+	width: 100%;
+	margin-left: 40px;
+	margin-right: 40px;
+	display:table-cell;
+}
+
+.finCA {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+.finpur {
+	float: left;
+	width: 20%;
+	text-align: right;
+}
+
+.finchiffre {
+	font-size: 40px;
+	color: #8FC4DF; 
+	margin-bottom:-10px;
+}
+
+.finautre {
+	float: left;
+	width: 20%;
+}
+
+.chiffretitre {
+	font-family: Montserrat, sans-serif;
+	font-weight: 200;
+	font-size: 20px;
+}
+
+.chiffretitre:after {
+	content:''; display:inline-block; 
+	vertical-align: middle; 
+	width: 70%; 
+	height: 1px; 
+	background: rgb(180,180,180);
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+/*-------------------------------------------- ENGAGEMENTS --------------------------------------------*/
+
+#container6 {
+	width: 100%;
+	height: 120%;
+	background-color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.engapic {
+	width: 100%;
+	text-align: center;
+}
+
+.engatext {
+	font-family: Montserrat, sans-serif;
+	font-weight: 200;
+	font-size: 15px;
+	padding: 40px;
+}
+
+#container6 > ul {
+	font-family: Montserrat, sans-serif;
+	font-weight: 200;
+	font-size: 13px;
+    list-style: round inside !important;
+    margin-top:-20px;
+    margin-bottom:-20px;
+	padding-left: 40px;
+}
+
+#container6 > ul > li {
+    padding:5px;
+    list-style: round inside !important;
+}
+
+
+/*-------------------------------------------- RESPONSIVE --------------------------------------------*/
+
+
+@media (max-width: 880px) {
+
+	.transbox {
+		height: 95px;
+	}
+
+	.boxQSN {
+		border-right: solid 0px;
+		width: 85%;
+		float:left;
+		padding-left: 40px;
+		padding-right: 40px;
+		padding-bottom: 50px;
+		height: 80%;
+		text-align: center;
+	}
+	.iconQSN {
+		float:left;
+		width: 85%;
+		padding-left: 40px;
+		padding-right: 40px;
+		text-align: center;
+	}
+
+	.finautre {
+		float: left;
+		width: 80%;
+		text-align: left;
+	}
+	.finCA{
+		float: left;
+		width: 80%;
+		text-align: left;
+	}
+	.finpur {
+		float: left;
+		width: 80%;
+		text-align: left;
+	}
+}
+
+@media (max-width: 1000px) {
+	.infospresident {
+		width: 100%;
+		float: left;
+		text-align: center;
+	}
+
+	.motpresident {
+		width: 100%;
+		margin-right: 40px;
+		margin-left: 40px;
+		font-family: Montserrat, sans-serif;
+		font-weight: 200;
+		font-size: 15px;
+		float: left;
+		width: 90%;
+	}
+
+	.signaturepresident {
+		width: 65%;
+		float: bottom;
+	}
+}
